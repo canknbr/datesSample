@@ -1,11 +1,14 @@
 import { StyleSheet, Text, View } from "react-native";
 import React from "react";
-import AppNavigator from "./src/navigator/AppNavigator";
 
-const App = () => {
-  return <AppNavigator />;
+const ChatScreen = () => {
+  return (
+    <View>
+      <Text>ChatScreen</Text>
+    </View>
+  );
 };
 
-export default App;
+export default ChatScreen;
 
 const styles = StyleSheet.create({});
